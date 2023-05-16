@@ -1,8 +1,8 @@
 resource "aws_s3_bucket" "balaji" {
-  bucket = "balajisow"
+  bucket = "balajishanu"
 
   tags = {
-    Name        = "balajisow"
+    Name        = "balajishanu"
     Environment = "Dev"
   }
 }
